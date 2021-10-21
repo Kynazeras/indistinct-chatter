@@ -10,6 +10,7 @@
   "dependencies": {
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
+    "@types/styled-components": "^5.1.15",
     "babel-plugin-styled-components": "^1.13.3",
     "gatsby": "^3.14.3",
     "gatsby-plugin-feed": "^3.14.0",
@@ -21,6 +22,7 @@
     "gatsby-plugin-react-helmet": "^4.14.0",
     "gatsby-plugin-sharp": "^3.14.1",
     "gatsby-plugin-styled-components": "^4.14.0",
+    "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-remark-copy-linked-files": "^4.11.0",
     "gatsby-remark-images": "^5.11.0",
     "gatsby-remark-prismjs": "^5.11.0",
@@ -32,6 +34,7 @@
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
+    "react-stars": "^2.2.5",
     "styled-components": "^5.3.3",
     "typeface-merriweather": "0.0.72",
     "typeface-montserrat": "0.0.75"

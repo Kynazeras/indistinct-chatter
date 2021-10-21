@@ -5,8 +5,9 @@ import { MDXProvider } from "@mdx-js/react"
 import Header from "../components/header"
 // Utils
 import Image from "../components/image"
+import { MovieCard } from "./MovieCard"
 
-const shortCodes = { Image }
+const shortCodes = { Image, MovieCard }
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`

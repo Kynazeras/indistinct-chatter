@@ -11,6 +11,7 @@ const SiteHeader = styled.header`
   h1 {
     color: white;
     letter-spacing: 0.2rem;
+    font-family: mendl-sans-dawn, sans-serif;
   }
 `
 
