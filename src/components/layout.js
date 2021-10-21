@@ -1,7 +1,9 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import { MDXProvider } from "@mdx-js/react"
+// Layout
 import Header from "../components/header"
+// Utils
 import Image from "../components/image"
 
 const shortCodes = { Image }

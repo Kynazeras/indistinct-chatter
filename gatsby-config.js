@@ -3,7 +3,7 @@ module.exports = {
     title: `[indistinct chatter]`,
     author: {
       name: `seth`,
-      summary: `a cinephile who loves Hardcore Henry just as much as Rashomon`,
+      summary: `a cinephile who loves Hardcore Henry just as much as Rashomon.`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
@@ -127,7 +127,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/page-icon.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-react-helmet`,
