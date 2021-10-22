@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import { Link } from "gatsby"
 
 const SiteHeader = styled.header`
   margin-bottom: 3rem;
@@ -18,7 +19,9 @@ const SiteHeader = styled.header`
 const Header = ({ siteTitle }) => {
   return (
     <SiteHeader>
-      <h1 className="main-heading">{siteTitle}</h1>
+      <h1 className="main-heading">
+        <Link to="/">{siteTitle}</Link>
+      </h1>
     </SiteHeader>
   )
 }
