@@ -11,3 +11,9 @@ export interface Movie {
 export interface Person {
   name: string
 }
+
+export interface Tag {
+  name: string
+  decription: string
+  emoji: string
+}

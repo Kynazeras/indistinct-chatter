@@ -33,7 +33,7 @@ const Layout = ({ location, title, children }) => {
       <Header siteTitle={title} />
       <div className="global-wrapper" data-is-root-path={isRootPath}>
         <main>{children}</main>
-        <footer>
+        <footer className="global-footer">
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.com">Gatsby</a>
