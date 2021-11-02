@@ -6,6 +6,12 @@ import Header from "../components/header"
 // Utils
 import Image from "../components/image"
 import { MovieCard } from "./MovieCard"
+// styled components
+import styled from "styled-components"
+
+const StyledMain = styled.div`
+  height: 95vh;
+`
 
 const shortCodes = { Image, MovieCard }
 
@@ -32,7 +38,7 @@ const Layout = ({ location, title, children }) => {
     <MDXProvider components={shortCodes}>
       <Header siteTitle={title} />
       <div className="global-wrapper" data-is-root-path={isRootPath}>
-        <main>{children}</main>
+        <StyledMain>{children}</StyledMain>
         <footer className="global-footer">
           © {new Date().getFullYear()}, Built with
           {` `}
