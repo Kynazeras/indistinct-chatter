@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
+import Image from "../components/image"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -31,6 +32,7 @@ const BlogIndex = ({ data, location }) => {
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
+          console.log(post)
 
           return (
             <li key={post.fields.slug}>
@@ -55,6 +57,9 @@ const BlogIndex = ({ data, location }) => {
                     itemProp="description"
                   />
                 </section>
+                {post.frontmatter.coverImage && (
+                  <Image imageSrc={post.frontmatter.coverImage} width={100} />
+                )}
               </article>
             </li>
           )
@@ -83,6 +88,7 @@ export const pageQuery = graphql`
           date(formatString: "MMMM DD, YYYY")
           title
           description
+          coverImage
         }
       }
     }
