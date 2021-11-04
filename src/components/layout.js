@@ -10,7 +10,7 @@ import { MovieCard } from "./MovieCard"
 import styled from "styled-components"
 
 const StyledMain = styled.div`
-  height: 95vh;
+  /* height: 95vh; */
 `
 
 const shortCodes = { Image, MovieCard }
