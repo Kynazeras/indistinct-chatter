@@ -54,7 +54,7 @@ export const MovieCard = (props: Movie) => {
           />
         </Flex>
         <p>
-          <strong>Director: </strong> {props.director}
+          <strong>Director(s): </strong> {props.director}
         </p>
         <p>
           <strong>Cast: </strong> {props.actors.join(", ")}
