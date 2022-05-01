@@ -7,7 +7,7 @@ module.exports = {
       name: `seth`,
       summary: `a cinephile who loves Hardcore Henry just as much as Rashomon.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `A blog about why Hardcore Henry is just as good as Rashomon.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
       twitter: `PartTimePretzel`,
