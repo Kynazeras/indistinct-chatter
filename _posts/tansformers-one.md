@@ -1,13 +1,13 @@
 ---
 title: 'Tranformers One: too much prequel'
 excerpt: 'Jeff Cooley turns in a very fun animated picture that leans too much on setup.'
-coverImage: '/assets/blog/posters/transformers_one.jpg'
+coverImage: 'https://image.tmdb.org/t/p/original/2h9yTYWTb909J28bzNTIE7dyNqP.jpg'
 date: '2024-12-03T05:35:07.322Z'
 author:
   name: Seth H
-  picture: '/assets/blog/authors/seth.png'
+  picture: 'https://ui-avatars.com/api/?background=000000&color=fff&name=seth+h'
 ogImage:
-  url: '/assets/blog/posters/transformers_one.jpg'
+  url: 'https://image.tmdb.org/t/p/original/2h9yTYWTb909J28bzNTIE7dyNqP.jpg'
 ---
 
 Transformers is a property that means quite a lot to elder millennials. It is this weird creation that came from the very simple idea of "what if robot but also car?". In a more boring world, this story would be set entirely on Earth and Transformers would be the product of an industrialist or a mad scientist. The robots would be protectors of people and would occasionally fight each other. They would be _cool_ but they wouldn't be **awesome**. What we got was, in fact, awesome. Transformers are from a planet named Cybertron. They have wars, power struggles, and community. They even have their own dinosaurs! Despite being a silly idea, they were treated with love and respect as a work of art rather than the simple cash grab that they could have been.
