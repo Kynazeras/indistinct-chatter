@@ -1,13 +1,13 @@
 ---
 title: 'Anora is magic in two parts'
 excerpt: "Mikey Madison's star-making performance along with the hilarious script make for a wild ride that culminates in an ending that will have you talking for weeks."
-coverImage: '/assets/blog/posters/anora_poster.jpg'
+coverImage: 'https://image.tmdb.org/t/p/original/cnUpZo6sNTdfbFx7ufs7ubi5MWX.jpg'
 date: '2024-12-02T05:35:07.322Z'
 author:
   name: Seth H
-  picture: '/assets/blog/authors/seth.png'
+  picture: 'https://ui-avatars.com/api/?background=000000&color=fff&name=seth+h'
 ogImage:
-  url: '/assets/blog/posters/anora_poster.jpg'
+  url: 'https://image.tmdb.org/t/p/original/cnUpZo6sNTdfbFx7ufs7ubi5MWX.jpg'
 ---
 
 _Anora_ is the latest entry in Scott Baker's anthology of films about sex work but it also enters the canon of "bifurcated films" or as I clumsily refer to them "first half / second half movies". This type of movie can be split into two distinct halves either by way of a time skip, major location change, or a noticeable shift in tone. Anora belongs to that last category as it makes the jump from a fast-moving montage of a whirlwind love story to a set of drawn-out scenes that are intense and noisy. The most impressive part is that is always manages to be hilarious.
