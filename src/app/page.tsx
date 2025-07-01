@@ -2,7 +2,7 @@ import Container from "@/app/_components/container";
 import { HeroPost } from "@/app/_components/hero-post";
 import { Intro } from "@/app/_components/intro";
 import { MorePosts } from "@/app/_components/more-posts";
-import { getAllPosts } from "@/lib/api";
+import { getAllPosts, getPostsByTag } from "@/lib/api";
 
 export default function Index() {
   const allPosts = getAllPosts();
@@ -10,6 +10,8 @@ export default function Index() {
   const heroPost = allPosts[0];
 
   const morePosts = allPosts.slice(1);
+
+  console.log(getPostsByTag("summer"));
 
   return (
     <main>
