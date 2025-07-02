@@ -1,3 +1,6 @@
+"use client";
+import { useRouter } from "next/navigation";
+
 interface Props {
   tags: string[];
 }
@@ -13,7 +16,7 @@ const tagStyleMapper = {
 };
 
 export const PostFooter = ({ tags }: Props) => {
-  console.log(tags[1] === TagType.SUMMER);
+  const router = useRouter();
   return (
     <div className="flex gap-x-4">
       {tags.map((tag) => (
@@ -21,7 +24,8 @@ export const PostFooter = ({ tags }: Props) => {
           key={tag}
           className={`${
             tagStyleMapper[tag as TagType]
-          } p-1 rounded-sm text-white`}
+          } p-1 rounded-sm text-white cursor-pointer`}
+          onClick={() => router.push(`/tag/${tag}`)}
         >
           #{tag.toLowerCase()}
         </div>
