@@ -2,6 +2,7 @@
 title: "Does F1: The Movie have the Maverick magic?"
 excerpt: "In the 3 years since Top Gun: Maverick, no blockbuster has matched its spectacle. With F1: The Movie, Joseph Kosinki attempts to do it again."
 coverImage: "https://image.tmdb.org/t/p/original/lkDYN0whyE82mcM20rwtwjbniKF.jpg"
+tags: ["review", "summer"]
 date: "2025-07-01T05:35:07.322Z"
 author:
   name: Seth H
