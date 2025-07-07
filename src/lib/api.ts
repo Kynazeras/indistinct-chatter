@@ -4,9 +4,18 @@ import matter from "gray-matter";
 import { join } from "path";
 
 const postsDirectory = join(process.cwd(), "_posts");
+const aboutDirectory = join(process.cwd(), "_about");
 
 export function getPostSlugs() {
   return fs.readdirSync(postsDirectory);
+}
+
+export function getAboutPage() {
+  const aboutPath = join(aboutDirectory, `about.md`);
+  const fileContents = fs.readFileSync(aboutPath, "utf-8");
+  const { data, content } = matter(fileContents);
+
+  return { ...data, content };
 }
 
 export function getPostBySlug(slug: string) {
@@ -22,7 +31,8 @@ export const getPostsByTag = (tag: string) => {
   const slugs = getPostSlugs();
   const posts = slugs
     .map((slug) => getPostBySlug(slug))
-    .filter((post) => post.tags?.includes(tag));
+    .filter((post) => post.tags?.includes(tag))
+    .sort((post1, post2) => (post1.date > post2.date ? -1 : 1));
   return posts;
 };
 

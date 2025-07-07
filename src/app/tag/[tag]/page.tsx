@@ -11,8 +11,7 @@ export default async function Post(props: Params) {
   if (posts.length === 0) return <h1>Tag not found</h1>;
 
   return (
-    <Container>
-      <Header />
+    <>
       <h2 className="mb-8 text-4xl md:text-6xl font-bold tracking-tighter leading-tight">
         {_.capitalize(params.tag)}
       </h2>
@@ -29,7 +28,7 @@ export default async function Post(props: Params) {
           />
         ))}
       </div>
-    </Container>
+    </>
   );
 }
 
