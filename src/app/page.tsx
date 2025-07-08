@@ -11,12 +11,9 @@ export default function Index() {
 
   const morePosts = allPosts.slice(1);
 
-  console.log(getPostsByTag("summer"));
-
   return (
     <main>
-      <Container>
-        <Intro />
+      <>
         <HeroPost
           title={heroPost.title}
           coverImage={heroPost.coverImage}
@@ -26,7 +23,7 @@ export default function Index() {
           excerpt={heroPost.excerpt}
         />
         {morePosts.length > 0 && <MorePosts posts={morePosts} />}
-      </Container>
+      </>
     </main>
   );
 }
