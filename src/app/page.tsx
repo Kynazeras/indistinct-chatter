@@ -22,6 +22,7 @@ export default function Index() {
           slug={heroPost.slug}
           excerpt={heroPost.excerpt}
         />
+        <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"></hr>
         {morePosts.length > 0 && <MorePosts posts={morePosts} />}
       </>
     </main>
