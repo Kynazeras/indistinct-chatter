@@ -6,6 +6,10 @@ import cn from "classnames";
 import { ThemeSwitcher } from "./_components/theme-switcher";
 
 import "./globals.css";
+import { Nav } from "./_components/nav";
+import { Intro } from "./_components/intro";
+import Container from "./_components/container";
+import Header from "./_components/header";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -60,8 +64,12 @@ export default function RootLayout({
       <body
         className={cn(inter.className, "dark:bg-slate-900 dark:text-slate-400")}
       >
-        <ThemeSwitcher />
-        <div className="min-h-screen">{children}</div>
+        <Container>
+          <ThemeSwitcher />
+          <Header />
+          <Nav />
+          <div className="min-h-screen">{children}</div>
+        </Container>
         <Footer />
       </body>
     </html>
