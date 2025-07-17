@@ -8,11 +8,13 @@ interface Props {
 enum TagType {
   REVIEW = "review",
   SUMMER = "summer",
+  LIST = "list",
 }
 
 const tagStyleMapper = {
   [TagType.REVIEW]: "bg-sky-300",
   [TagType.SUMMER]: "bg-amber-300",
+  [TagType.LIST]: "bg-green-300",
 };
 
 export const PostFooter = ({ tags }: Props) => {
